@@ -1,0 +1,83 @@
+.container{
+    margin: 100px auto;
+    width: 500px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    background-color: aliceblue;
+}
+
+.container h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container form{
+    padding: 20px;
+}
+
+
+
+.container input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
+    font-size: 16px;
+
+}
+
+.container input[type=submit]{
+
+    width: 100px;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    margin-left: 200px;
+    height: 35px;
+    box-shadow: 1px 1px 1px 1px gray;
+    cursor: pointer;
+}
+
+.container input span{
+    float: right;
+}
+
+.container input.ng-valid[required], ng-valid.required{
+    border: 2px solid green;
+}
+
+.container input.ng-invalid[required], ng-invalid.required{
+    border: 2px solid red;
+}
+
+.alert{
+    background-color: red;
+    opacity: 0.5;
+    border: 1px solid red;
+    width: 80%;
+    height: 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.disabledButton{
+    background-color: dimgray;
+}
+
+
